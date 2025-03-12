@@ -1,4 +1,4 @@
-FROM openjdk:19-jre-slim
+FROM azul/zulu-openjdk-alpine:21
 
 COPY gestio-1.0.1.jar . 
 
